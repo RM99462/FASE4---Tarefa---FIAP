@@ -1,0 +1,46 @@
+
+:root {
+    --color-green:#2b7900;
+    --color-white:#f0f8ff;
+    --color-black:#181818;
+    --color-gray: #212529;
+
+}
+
+
+
+
+body {
+    background-color: var(--color-gray);
+   
+}
+
+h4 {
+    color: var(--color-white);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icones {
+    font-size: 3vmin;
+    color:var(--color-white);
+    transition: 0.5s;
+}
+
+.icones:hover {
+    color: var(--color-green)
+    
+}
+
+
+.table {
+    align-items: center;
+}
+
+
